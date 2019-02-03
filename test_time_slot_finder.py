@@ -3,7 +3,7 @@ import time_slot_finder
 import datetime
 
 
-class TestStringMethods(unittest.TestCase):
+class TestTimeSlotFinder(unittest.TestCase):
     def test_parse_date(self):
         (y, mo, d, h, mi) = time_slot_finder.parse_date("04/03/2018T12:00")
         self.assertEqual(y, 2018)
